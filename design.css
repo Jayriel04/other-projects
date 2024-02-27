@@ -1,0 +1,185 @@
+.image {
+    background-image: url(bcg1.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+header {
+    background-color: #4a3625;
+    color: #fff;
+    padding: 20px;
+    width: 97%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+}
+  
+header h1 {
+    margin: 0;
+}
+  
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+header nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+  
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.search-container {
+    display: flex;
+    align-items: center;
+}
+  
+#search-input {
+    padding: 15px;
+    width: 200px;
+    border: 2px solid black;
+}
+  
+#search-button {
+    padding: 15px 10px;
+    border: 2px solid black;
+}
+
+.content {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 90vh;
+    padding: 20px;
+    width: 100vh;
+}
+
+.content p {
+    text-align: left;
+    color: #fff;
+    font-size: 17px;
+}
+
+.info {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+    width: 160vh;
+}
+
+.info ul {
+    text-align: left;
+    color: #fff;
+    font-size: 17px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 20px;
+    width: 150vh;
+}
+
+.details p {
+    text-align: left;
+    color: #fff;
+    font-size: 17px;
+}
+
+
+.menu1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 300px;
+    bottom: 300px;
+    left: 0;
+    right: 300px;
+}
+
+.menu-image {
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.maps {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 60vh;
+    padding: 20px;
+    width: 180vh;
+}
+
+.maps ul {
+    text-align: left;
+    color: #fff;
+    font-size: 17px;
+}
+
+.between {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    position: absolute;
+    bottom: 150px;
+    right: 0;
+    left: 0;
+}
+
+.location, .contact, .address, .website {
+    margin-bottom: 20px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.location i, .contact i, .address i , .website i {
+    margin-right: 10px;
+    color: lightgreen;
+}
+  
+.location span, .contact span, .address span , .website span{
+    color: #fff;
+}
+
+.web {
+    color: #fff;
+}
+
+footer {
+    background-color: #4a3625;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    width: 97%;
+    left: 0;
+}
+  
+.social-icons a {
+    display: inline-block;
+    margin: 0 40px;
+}
+  
+.social-icons img {
+    width: 30px;
+}
